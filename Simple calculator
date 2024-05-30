@@ -1,0 +1,45 @@
+from random import*
+from time import sleep
+while True:
+    f=input(f'\r to spin press Enter(enter only) ')
+    if f== '':
+        
+        sleep(0.1)
+        
+        
+        k=randint(1,6)
+        
+        if k==1:
+            
+            i=("     \n  •  \n     ")
+            print('number 1')
+            
+        elif k==2:
+            
+            i=("•    \n     \n    •")
+            print('number 2')
+            
+        elif k==3:
+            
+            i=("•    \n  •  \n    •")
+            print('number 3')
+            
+        elif k==4:
+            
+            i=("•   •\n     \n•   •")
+            print('number 4')
+            
+        elif k==5:
+            
+            i=("•   •\n  •  \n•   •")
+            print('number 5')
+            
+        elif k==6:
+           
+            i=("•   •\n•   •\n•   •")
+            print('number 6')
+                
+    else:
+        print(' Enter only')
+       
+    print(f'\r{i}')           
